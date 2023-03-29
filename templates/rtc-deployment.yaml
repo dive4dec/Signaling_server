@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    service: yjs-rtc
+  name: yjs-rtc
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      service: yjs-rtc
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        service: yjs-rtc
+    spec:
+      containers:
+        - image: {{ .Values.yjsrtc.image }}
+          name: yjs-rtc
+          ports:
+            - containerPort: 4444
+          resources: {}
+      restartPolicy: Always
+status: {}

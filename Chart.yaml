@@ -1,0 +1,8 @@
+name: rtc-test
+description: rtc chart
+version: 0.0.1
+apiVersion: v1
+keywords:
+  - rtc_test
+sources:
+home:
