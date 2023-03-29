@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: yjs-rtc-server
   annotations:
-    cert-manager.io/cluster-issuer: selfsigned-issuer
+    cert-manager.io/cluster-issuer: letsencrypt-prod
     nginx.ingress.kubernetes.io/rewrite-target: /$2
     nginx.ingress.kubernetes.io/proxy-body-size: 100M
     nginx.ingress.kubernetes.io/force-ssl-redirect: "false"

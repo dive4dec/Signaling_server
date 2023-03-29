@@ -1,1 +1,1 @@
-signaling server for jupyterlite RTC
+signaling server for jupyterlite

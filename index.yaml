@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  yjs-rtc-chart:
+  - apiVersion: v1
+    created: "2023-03-29T22:20:11.811860639+08:00"
+    description: rtc chart
+    digest: ee424ffdaf41a775275e09512fb3b31eee788df1db5a17cd2a0a788dd7da8492
+    keywords:
+    - rtc_test
+    name: yjs-rtc-chart
+    urls:
+    - yjs-rtc-chart-0.0.1.tgz
+    version: 0.0.1
+generated: "2023-03-29T22:20:11.81154346+08:00"
