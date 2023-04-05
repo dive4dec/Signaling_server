@@ -2,4 +2,5 @@ yjsrtc:
   image: localhost:32000/yjs-rtc:v2
 ingress:
   host: deep.cs.cityu.edu.hk
-  path: /rtc10(/|$)(.*)
+  path: /rtc12(/|$)(.*)
+  whitelist: 127.0.0.1, 10.0.0.0/24
