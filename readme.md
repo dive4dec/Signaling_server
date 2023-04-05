@@ -1,5 +1,5 @@
 # Signaling server for jupyterlite
-Dockerfile and Helm chart FOR deploying the signaling server for jupyterlite real time collaboration.
+Dockerfile and Helm chart for deploying the signaling server for jupyterlite real time collaboration.
 
 ## Building and pushing the server image
 Build the docker image using the `dockerfile` in the root folder<br />
