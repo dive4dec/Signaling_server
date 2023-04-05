@@ -1,5 +1,5 @@
 # Signaling server for jupyterlite
-Dockerfile and Helm chart deploying the signaling server for jupyterlite real time collaboration.
+Dockerfile and Helm chart FOR deploying the signaling server for jupyterlite real time collaboration.
 
 ## Building and pushing the server image
 Build the docker image using the `dockerfile` in the root folder<br />
@@ -12,9 +12,9 @@ docker push localhost:32000/signal-server:tag1
 ```
 ## Deploy the server using Kubernetes
 
-Modify the `values.yaml` for configuring your own image name, domain name, URL, and ip whitelist, if applicable.
+Modify the `values.yaml` for configuring your own image name, domain name, URL, and ip whitelist before the deployment.
 
-Create a new namespace
+Then, create a new namespace
 ```
 kubectl create namespace my_namespace
 ```
