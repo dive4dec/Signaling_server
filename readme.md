@@ -1,5 +1,5 @@
 # Signaling server for jupyterlite
-Dockerfile and Helm chart deploying the signaling server for jupyterlite real time collobroation.
+Dockerfile and Helm chart deploying the signaling server for jupyterlite real time collaboration.
 
 ## Building and pushing the server image
 Build the docker image using the `dockerfile` in the root folder<br />
@@ -25,9 +25,9 @@ sudo helm install release1 --debug . --values values.yaml --namespace=my_namespa
 
 ## Testing the signaling server
 
-Use wss connection tool such as wscat, or online tools like https://www.piesocket.com/websocket-tester to connect the server. Ther server url should be `wss://<your domain name>/<your path`> or `ws://<your domain name>/<your path>`.
+Use wss connection tool such as wscat, or online tools like https://www.piesocket.com/websocket-tester to connect the server. The server url should be `wss://<your domain name>/<your path`> or `ws://<your domain name>/<your path>`.
 
-After connection is established, try send the message `{"type":"ping"}`, if the sever should return `{"type":"pong"}`.
+After connection is established, try send the message `{"type":"ping"}`, the sever should return `{"type":"pong"}`.
 
 
 
