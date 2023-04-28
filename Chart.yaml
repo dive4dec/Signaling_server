@@ -1,6 +1,6 @@
-name: signalling-server-chart
+name: signalling-server
 description: yjs-rtc signalling server chart
-version: 0.0.1
+version: 0.0.2
 apiVersion: v1
 keywords:
   - signalling server

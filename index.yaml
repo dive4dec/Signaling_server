@@ -1,8 +1,19 @@
 apiVersion: v1
 entries:
+  signalling-server:
+  - apiVersion: v1
+    created: "2023-04-28T14:24:59.969879563+08:00"
+    description: yjs-rtc signalling server chart
+    digest: 0f9793baaec80f2353d5aab3647be66ce6d4e9a4cfef9c62209b06990b8a2ef2
+    keywords:
+    - signalling server
+    name: signalling-server
+    urls:
+    - signalling-server-0.0.2.tgz
+    version: 0.0.2
   signalling-server-chart:
   - apiVersion: v1
-    created: "2023-04-08T15:29:46.231400804+08:00"
+    created: "2023-04-28T14:24:59.971000525+08:00"
     description: yjs-rtc signalling server chart
     digest: 61ea5d384d9ffbc200695596a5a3b376bc5382ca4a0f7990177aff28e9aae659
     keywords:
@@ -11,4 +22,4 @@ entries:
     urls:
     - signalling-server-chart-0.0.1.tgz
     version: 0.0.1
-generated: "2023-04-08T15:29:46.226201998+08:00"
+generated: "2023-04-28T14:24:59.96833949+08:00"

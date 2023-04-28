@@ -1,5 +1,5 @@
 yjsrtc:
-  image: localhost:32000/yjs-rtc:v2
+  image: dive.cs.cityu.edu.hk/yjs-rtc
 ingress:
   host: deep.cs.cityu.edu.hk
   path: /rtc12(/|$)(.*)
